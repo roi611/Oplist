@@ -1,0 +1,17 @@
+name: Oplist
+main: roi611\oplist\Main
+version: 1.2.0
+api:
+- 3.0.0
+- 4.0.0
+- 5.0.0-ALPHA1
+load: POSTWORLD
+author: roi611
+description: oplistコマンドを追加します
+website: https://github.com/roi611/oplist
+
+commands: 
+  oplist:
+     description: oplistを表示します
+     usage: /oplist 
+     permission: pocketmine.group.user
